@@ -28,12 +28,12 @@ class Stack{
 
     display()
     {
-        var str="";
+        var a="";
         for(var i=0;i<this.arr.length;i++)
         {
-            str+=this.arr[i];
+            a+=this.arr[i];
         }
-        return str;
+        return a;
     }
 }
 
